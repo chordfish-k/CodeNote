@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="55dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="left|center"
+			android:background="@color/blue">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center"
+				android:layout_marginLeft="5dp"
+				android:paddingBottom="2dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="@string/app_name"
+					android:layout_width="match_parent"
+					android:textSize="20sp"
+					android:textColor="#FFFFFF"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="4dp"/>
+
+				<com.en_jun4146d.note.AlwaysMarqueeTextView
+					android:layout_height="wrap_content"
+					android:layout_width="200dp"
+					android:gravity="left|center"
+					android:textColor="#FFFFFF"
+					android:textSize="16sp"
+					android:id="@+id/filename"
+					android:singleLine="true"
+					android:ellipsize="marquee"
+					android:layout_marginLeft="5dp"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:layout_marginRight="5dp"
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:gravity="right|center">
+
+				<ImageButton
+					android:layout_height="50dp"
+					android:layout_width="50dp"
+					android:id="@+id/b_undo"
+					android:background="@drawable/b_undo"/>
+
+				<ImageButton
+					android:layout_height="50dp"
+					android:layout_width="50dp"
+					android:background="@drawable/b_redo"
+					android:id="@+id/b_redo"/>
+
+				<ImageButton
+					android:layout_height="50dp"
+					android:layout_width="50dp"
+					android:background="@drawable/b_code"
+					android:id="@+id/b_code"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<include
+			layout="@layout/character_bar"
+			android:id="@+id/cb"/>
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:scrollbars="vertical"
+			android:padding="10dp">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:background="@drawable/shadow">
+
+				<EditText
+					android:layout_height="match_parent"
+					android:ems="10"
+					android:layout_width="match_parent"
+					android:id="@+id/editor"
+					android:gravity="top|left"
+					android:layout_margin="10dp"
+					android:background="#FFFFFF"
+					android:textColorLink="#0066FF"
+					android:singleLine="false"
+					android:scrollHorizontally="true"/>
+
+				<TextView
+					android:layout_height="500dp"
+					android:layout_width="match_parent"
+					android:id="@+id/editn"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="bottom|right">
+
+		<ImageView
+			android:layout_height="50dp"
+			style="?android:attr/buttonBarButtonStyle"
+			android:layout_width="50dp"
+			android:background="@drawable/circle"
+			android:layout_marginRight="20dp"
+			android:layout_marginBottom="10dp"
+			android:id="@+id/b_finish"
+			android:src="@drawable/b_finish"
+			android:padding="10dp"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+

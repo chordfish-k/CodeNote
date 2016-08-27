@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">代码笔记本</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="delete_success">删除成功</string>
+	<string name="delete_fail">删除失败</string>
+	<string name="delete_tip">点击笔记删除,点击菜单返回</string>
+	<string name="back_from_delete">退出删除模式</string>
+	<string name="refresh_done">刷新完毕</string>
+	<string name="new_file">新建笔记</string>
+	<string name="done">完成</string>
+	<string name="yes">确定</string>
+	<string name="no">取消</string>
+	<string name="enter_file_name">请输入笔记名</string>
+	<string name="save_done">笔记保存完毕</string>
+	<string name="HL_refresh">高亮刷新完毕</string>
+	<string name="HL_tip">点击再次刷新，长按恢复</string>
+	<string name="HL_remove">取消高亮</string>
+</resources>

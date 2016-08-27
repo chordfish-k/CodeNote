@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@drawable/title">
+
+	<HorizontalScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:id="@+id/characterbar">
+
+			<Button
+				android:layout_height="40dp"
+				android:text="{}"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="()"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="[]"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="&lt;"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="&gt;"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="."
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text=";"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text=","
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="+"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="-"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="*"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="/"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="%"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="&amp;"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="!"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="|"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="^"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="="
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text=":"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="_"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="$"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:text="#"
+				android:layout_width="40dp"
+				android:textSize="15sp"
+				android:background="@drawable/title_button"
+				android:textColor="#FFFFFF"
+				android:onClick="insert"/>
+
+		</LinearLayout>
+
+	</HorizontalScrollView>
+
+</LinearLayout>
+
